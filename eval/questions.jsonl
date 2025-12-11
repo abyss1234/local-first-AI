@@ -1,0 +1,30 @@
+{"id":1,"question":"What is RAG?","expected_files":["rag_notes.md"]}
+{"id":2,"question":"List the RAG pipeline steps.","expected_files":["rag_notes.md"]}
+{"id":3,"question":"Why does hallucination increase without context?","expected_files":["rag_notes.md"]}
+{"id":4,"question":"Explain chunk -> embed -> store -> retrieve -> prompt -> generate.","expected_files":["rag_notes.md"]}
+{"id":5,"question":"Give a one-sentence definition of Retrieval-Augmented Generation.","expected_files":["rag_notes.md"]}
+{"id":6,"question":"What is HomeGuard Doorbell?","expected_files":["product.txt"]}
+{"id":7,"question":"List HomeGuard features.","expected_files":["product.txt"]}
+{"id":8,"question":"What limitation is mentioned about night vision?","expected_files":["product.txt"]}
+{"id":9,"question":"Is HomeGuard local-first?","expected_files":["product.txt"]}
+{"id":10,"question":"Summarize the product description in one line.","expected_files":["product.txt"]}
+{"id":11,"question":"What is the minimum password length required?","expected_files":["policy.md"]}
+{"id":12,"question":"What should you do during incidents?","expected_files":["policy.md"]}
+{"id":13,"question":"Should we share API keys in chat?","expected_files":["policy.md"]}
+{"id":14,"question":"List the team policy rules.","expected_files":["policy.md"]}
+{"id":15,"question":"What is the policy about passwords?","expected_files":["policy.md"]}
+{"id":16,"question":"Explain RAG and cite the source.","expected_files":["rag_notes.md"]}
+{"id":17,"question":"What are the stages of a basic RAG system?","expected_files":["rag_notes.md"]}
+{"id":18,"question":"Describe the retrieval part of RAG.","expected_files":["rag_notes.md"]}
+{"id":19,"question":"What does 'store' mean in RAG pipeline?","expected_files":["rag_notes.md"]}
+{"id":20,"question":"How is context used in RAG?","expected_files":["rag_notes.md"]}
+{"id":21,"question":"Does HomeGuard have motion detection?","expected_files":["product.txt"]}
+{"id":22,"question":"Does the product support recording playback?","expected_files":["product.txt"]}
+{"id":23,"question":"What affects night vision quality?","expected_files":["product.txt"]}
+{"id":24,"question":"Give 3 bullet points about HomeGuard.","expected_files":["product.txt"]}
+{"id":25,"question":"What should on-call do when incident happens?","expected_files":["policy.md"]}
+{"id":26,"question":"What is forbidden to share?","expected_files":["policy.md"]}
+{"id":27,"question":"How many characters should passwords have at least?","expected_files":["policy.md"]}
+{"id":28,"question":"Explain why citations help reduce hallucination.","expected_files":["rag_notes.md"]}
+{"id":29,"question":"What is top-k retrieval in RAG?","expected_files":["rag_notes.md"]}
+{"id":30,"question":"Write the full pipeline with arrows.","expected_files":["rag_notes.md"]}

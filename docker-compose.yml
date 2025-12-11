@@ -1,0 +1,48 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+
+  qdrant:
+    image: qdrant/qdrant:latest
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - ./qdrant_storage:/qdrant/storage
+
+  api:
+    build: ./api
+    environment:
+      OLLAMA_BASE_URL: http://ollama:11434
+      QDRANT_URL: http://qdrant:6333
+      OLLAMA_MODEL: smollm2:135m
+      OLLAMA_EMBED_MODEL: all-minilm
+      QDRANT_COLLECTION: docs
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./docs:/app/docs
+      - ./cli:/app/cli
+      - ./tests:/app/tests
+      - ./notes:/app/notes
+      - ./logs:/app/logs
+      - ./eval:/app/eval
+    depends_on:
+      - ollama
+      - qdrant
+
+  ui:
+    build: ./ui
+    environment:
+      API_URL: http://api:8000
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
+
+volumes:
+  ollama:

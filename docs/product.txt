@@ -1,0 +1,3 @@
+Product: HomeGuard Doorbell
+Features: motion detection, recording playback, local-first design.
+Known limitation: night vision quality depends on lighting.

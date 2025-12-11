@@ -1,0 +1,25 @@
+{"ts": "2025-12-10T11:33:05.007832+00:00", "method": "POST", "path": "/chat_rag", "status": 500, "latency_ms": 36.94, "error": "name 'client' is not defined"}
+{"ts": "2025-12-10T11:37:10.348070+00:00", "method": "POST", "path": "/chat_rag", "status": 500, "latency_ms": 35.73, "error": "name 'client' is not defined"}
+{"ts": "2025-12-10T11:37:33.840527+00:00", "method": "POST", "path": "/chat_rag", "status": 500, "latency_ms": 124.68, "error": "'NoneType' object is not iterable"}
+{"ts": "2025-12-10T11:46:20.683222+00:00", "method": "POST", "path": "/chat_rag", "status": 200, "latency_ms": 7979.57, "error": null}
+{"ts": "2025-12-10T11:50:56.162736+00:00", "method": "POST", "path": "/chat_rag", "status": 200, "latency_ms": 960.37, "error": null}
+{"ts": "2025-12-10T11:51:13.073488+00:00", "method": "POST", "path": "/chat_rag", "status": 200, "latency_ms": 1443.52, "error": null}
+{"ts": "2025-12-10T11:53:03.570378+00:00", "method": "POST", "path": "/chat_rag", "status": 200, "latency_ms": 838.81, "error": null}
+{"ts": "2025-12-10T11:53:10.379893+00:00", "method": "POST", "path": "/chat_rag", "status": 200, "latency_ms": 6804.08, "error": null}
+{"ts": "2025-12-10T11:53:14.565219+00:00", "method": "POST", "path": "/chat_rag", "status": 200, "latency_ms": 4180.28, "error": null}
+{"ts": "2025-12-10T11:53:15.419360+00:00", "method": "POST", "path": "/chat_rag", "status": 200, "latency_ms": 849.18, "error": null}
+{"ts": "2025-12-10T11:53:16.704687+00:00", "method": "POST", "path": "/chat_rag", "status": 200, "latency_ms": 1280.56, "error": null}
+{"ts": "2025-12-10T11:58:10.307920+00:00", "method": "POST", "path": "/chat_rag", "status": 200, "latency_ms": 3356.81, "error": null}
+{"ts": "2025-12-10T11:58:27.887858+00:00", "method": "POST", "path": "/chat_rag", "status": 200, "latency_ms": 17574.64, "error": null}
+{"ts": "2025-12-10T11:58:29.353883+00:00", "method": "POST", "path": "/chat_rag", "status": 200, "latency_ms": 1461.56, "error": null}
+{"ts": "2025-12-10T11:58:30.751981+00:00", "method": "POST", "path": "/chat_rag", "status": 200, "latency_ms": 1392.49, "error": null}
+{"ts": "2025-12-10T11:58:31.872752+00:00", "method": "POST", "path": "/chat_rag", "status": 200, "latency_ms": 1116.38, "error": null}
+{"ts": "2025-12-10T12:08:03.834804+00:00", "method": "POST", "path": "/agent", "status": 200, "latency_ms": 9299.53, "error": null}
+{"ts": "2025-12-10T12:08:56.344647+00:00", "method": "POST", "path": "/chat", "status": 200, "latency_ms": 1649.65, "error": null}
+{"ts": "2025-12-10T12:10:28.301467+00:00", "method": "POST", "path": "/chat", "status": 200, "latency_ms": 3781.29, "error": null}
+{"ts": "2025-12-10T12:13:03.919943+00:00", "method": "GET", "path": "/health", "status": 200, "latency_ms": 42.34, "error": null}
+{"ts": "2025-12-10T12:13:16.869233+00:00", "method": "POST", "path": "/chat", "status": 200, "latency_ms": 14.97, "error": null}
+{"ts": "2025-12-11T03:43:38.701009+00:00", "method": "GET", "path": "/health", "status": 200, "latency_ms": 92.29, "error": null}
+{"ts": "2025-12-11T03:44:22.536920+00:00", "method": "POST", "path": "/agent", "status": 200, "latency_ms": 5713.55, "error": null}
+{"ts": "2025-12-11T03:49:08.725568+00:00", "method": "POST", "path": "/agent", "status": 200, "latency_ms": 7729.07, "error": null}
+{"ts": "2025-12-11T03:54:43.978340+00:00", "method": "POST", "path": "/agent", "status": 200, "latency_ms": 18048.7, "error": null}
